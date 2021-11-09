@@ -29,7 +29,7 @@ h1{
     grid-gap:20px;
     grid-template-areas:
     "search search" 
-    "float1 empty";
+    "float1 float2";
 }
 
 label{
@@ -55,6 +55,10 @@ button{
     grid-area: float1;
 }
 
+.float2{
+    grid-area: float2;
+}
+
 
 table{
     text-align: left;
@@ -71,5 +75,5 @@ table th{
 }
 
 table tr:nth-child(odd) td{
-    background-color:rgb(174, 59, 31);
+    background-color:rgb(208, 140, 123);
 }
