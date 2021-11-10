@@ -23,6 +23,24 @@ h1{
     text-decoration:underline;
 }
 
+#lookup{
+    grid-area: float1;
+}
+
+#lookup1{
+    grid-area: float2;
+}
+
+input{
+    grid-area: search;
+    height: 30px;
+}
+
+label{
+    grid-area:label;
+    display: none;
+}
+
 #controls{
     display:grid;
     grid-template-columns: auto auto;
@@ -32,36 +50,17 @@ h1{
     "float1 float2";
 }
 
-label{
-    grid-area:label;
-    display: none;
-}
-
-input{
-    grid-area: search;
-    height: 30px;
-}
-
 button{
-    border: 3px solid rgb(96, 160, 98);
+    border: 5px solid rgb(96, 160, 98);
     background:  rgb(121, 41, 21);
     color: rgb(96, 160, 98);
     border-radius: 7px 10px 10px 7px;
-    cursor: pointer;
-    font-size: 20px;
+    cursor:crosshair;
+    font-size: 40px;
 }
-
-.float1{
-    grid-area: float1;
-}
-
-.float2{
-    grid-area: float2;
-}
-
 
 table{
-    text-align: left;
+    text-align: center;
     width: 1200px;
     margin: auto;
     table-layout: fixed;
